@@ -10,7 +10,7 @@ My ICML 2026 paper detects audio deepfakes with **34,000 parameters** — 0.01% 
 
 **FlowFake: Liquid Networks for Audio Deepfake Detection** — first author (equal contribution)
 Accepted at the **ICML 2026 Workshop on Machine Learning for Audio**, Seoul.
-[arXiv:2606.19579](https://arxiv.org/abs/2606.19579) · [camera-ready PDF](https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/78/CameraReady/FlowFake%20Liquid%20Network%20for%20Audio%20DeepFake%20Detection.pdf) · [code](https://github.com/shivaay790/FlowFake)
+[Camera-ready PDF](https://mlforaudioworkshop.github.io/accepted_submissions_2026/CameraReadys%204-83/78/CameraReady/FlowFake%20Liquid%20Network%20for%20Audio%20DeepFake%20Detection.pdf) · [code](https://github.com/shivaay790/FlowFake)
 
 A Liquid Time-Constant architecture whose hidden state evolves via a learned ODE, with per-neuron adaptive time constants resolving spectral (10 ms) and prosodic (2 s) structure at once. Formal BIBO stability and an O(Δt⁴) RK4 error bound.
 
