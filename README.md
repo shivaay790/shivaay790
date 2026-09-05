@@ -1,8 +1,8 @@
 ## Shivaay Dhondiyal
 
-**I make voice and audio pipelines faster and cheaper.**
+**I make voice AI systems faster, cheaper, and measurably more reliable.**
 
-My ICML 2026 paper detects audio deepfakes with **34,000 parameters** — 0.01% the size of the 300M-parameter Wav2Vec2 baseline — and beats it by **+9.8 points** on the hardest cross-domain pair in the benchmark.
+I built the STT/TTS voice-agent workflows and the analytics layer for a healthcare stack running **1M+ calls a month**, and I have two ICML 2026 workshop papers on when models hold up under distribution shift. I take two part-time consulting retainers at a time — [details below](#consulting).
 
 ---
 
@@ -25,7 +25,9 @@ Cross-dataset accuracy, trained on FakeOrReal — the hardest transfer pair in t
 
 Trained on MLAAD (54 TTS systems, 23 languages) it reaches 79.97% on ASVspoof-2019 — above SSL Wav2Vec2's 78.0% — and **90.41% zero-shot on WaveFake**.
 
-Note the standard deviations. FlowFake's cross-seed spread is ±0.24–3.08; the baselines swing ±10–44 points. Small, fast, and it doesn't move under you.
+Note the standard deviations. FlowFake's cross-seed spread is ±0.24–3.08 where the baselines swing ±10–44 points — the stability that Theorem 4.2 predicts, confirmed empirically.
+
+**What this result is not.** These are cross-dataset numbers, and cross-dataset EER still sits at 37–47%. FlowFake is a demonstration that a structural prior beats brute capacity in the data-scarce, high-shift regime — not a drop-in production detector. With abundant in-domain data, large fine-tuned SSL models win, and the paper says so explicitly.
 
 **When Does Disentanglement Enable Compositional Generalization? A Transfer Bound and Its Empirical Validation**
 Accepted at the **ICML 2026 CompLearn Workshop**.
