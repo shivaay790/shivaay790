@@ -64,10 +64,9 @@ I take **two part-time retainers at a time**, embedded with your engineering tea
 
 | | |
 |---|---|
-| **Pilot sprint** | **$600** — one week, fixed scope, one metric. If the number doesn't move, don't pay the invoice. |
-| **Embedded** | $2,500/mo — 10 hrs/week |
-| **Core** | $3,500/mo — 14 hrs/week |
-| **Lead** | $5,000/mo — 20 hrs/week |
+| **Pilot sprint** | **$500** — one week, fixed scope, one metric. If the number doesn't move, don't pay the invoice. |
+| **Embedded** | $1,500/mo — 10 hrs/week |
+| **Lead** | $3,000/mo — 20 hrs/week |
 
 Every engagement ships a repo, a before/after benchmark you can re-run without me, and a written weekly update with numbers in it.
 
