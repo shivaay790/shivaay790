@@ -48,6 +48,8 @@ Accepted at the **ICML 2026 CompLearn Workshop**.
 
 ### Selected engineering
 
+- **[telephony-asr-bench](https://github.com/shivaay790/telephony-asr-bench)** — speech recognition is benchmarked on clean wideband audio; voice agents receive 8 kHz, G.711-companded, packet-lossy audio. This measures the difference. Reproducible channel chain, pooled corpus WER with bootstrapped confidence intervals, and a hard pre-flight budget guard so a run cannot overspend. 36 tests, no network.
+
 - **[Crowd density estimation](https://crowd-counting.shivaaydhondiyal.online/)** — live. VGG16 + CBAM attention, patch-based inference at 1024², stampede-risk gradient analysis, DBSCAN hotspot clustering. [code](https://github.com/shivaay790/DL_crowd_counting)
 - **[Real-time gesture control](https://hand-gesture.shivaaydhondiyal.online/)** — live. MediaPipe + FastAPI + WebSocket, driving games and serial-connected robotic hardware. [code](https://github.com/shivaay790/hand-gesture-deployed)
 - **[Internal RAG Assistant](https://github.com/shivaay790/Internal-RAG-Assistant)** — ensemble retrieval (Chroma + Gemini embeddings + BM25), query classification, source citations, PII detection and masking, per-user rate limiting. The unglamorous parts of RAG that decide whether it survives contact with real users.
