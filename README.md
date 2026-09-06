@@ -48,6 +48,8 @@ Accepted at the **ICML 2026 CompLearn Workshop**.
 
 ### Selected engineering
 
+- **[clinical-entity-asr-eval](https://github.com/shivaay790/clinical-entity-asr-eval)** — a healthcare voice agent does not fail because word error rate went up; it fails because it got the drug name wrong. Scores the spans that decide a call. First run: 12.3% WER against 87.5% call success, with drug names the worst field at 75%.
+- **[codeswitch-voice-eval](https://github.com/shivaay790/codeswitch-voice-eval)** — most voice pipelines detect language once at call start; callers switch mid-call. Auto-detect lost 75% of the opening segment, forcing the language lost 100% of the second. Includes the control arm that isolates the switch.
 - **[telephony-asr-bench](https://github.com/shivaay790/telephony-asr-bench)** — speech recognition is benchmarked on clean wideband audio; voice agents receive 8 kHz, G.711-companded, packet-lossy audio. This measures the difference. Reproducible channel chain, pooled corpus WER with bootstrapped confidence intervals, and a hard pre-flight budget guard so a run cannot overspend. 36 tests, no network.
 
 - **[Crowd density estimation](https://crowd-counting.shivaaydhondiyal.online/)** — live. VGG16 + CBAM attention, patch-based inference at 1024², stampede-risk gradient analysis, DBSCAN hotspot clustering. [code](https://github.com/shivaay790/DL_crowd_counting)
